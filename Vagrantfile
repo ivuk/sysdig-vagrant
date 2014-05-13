@@ -120,5 +120,9 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   #
   #   chef.validation_client_name = "ORGNAME-validator"
 
+  config.vm.provider "virtualbox" do |vb|
+    vb.name = "ubu1204-sysdig"
+  end
+
   config.vm.provision :shell, :path => "sysdig_deploy.sh"
 end
