@@ -13,7 +13,7 @@ wget -q -O /etc/apt/sources.list.d/draios.list \
     http://download.draios.com/stable/deb/draios.list
 
 # Resynchronize the package index files
-apt-get update
+apt-get -qq update
 
 # Install kernel-headers package
 # Install sysdig package from the repository
