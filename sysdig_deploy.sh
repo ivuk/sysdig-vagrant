@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# A bash script used in combination with a Vagrant shell provider that sets up
+# A bash script used in combination with Vagrant shell provider that sets up
 # sysdig from Draios repository
 #
 # https://github.com/draios/sysdig/wiki/How%20to%20Install%20Sysdig%20for%20Linux#automatic-installation
